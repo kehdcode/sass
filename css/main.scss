@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 $colors : (
     primary: #005dff,
     accent: #fff6bb
 );
 
 body{
+    font-family: monsaerrat;
     background-color: map-get($colors , primary );
 }
